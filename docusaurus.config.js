@@ -10,16 +10,24 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://JeiLeee.github.io', // Your website URL
+  baseUrl: '/docuaurus-J-01/',
+  projectName: 'docuaurus-J-01',
+  organizationName: 'JeiLeee',
+  trailingSlash: false,
+  // deploymentBranch:'main',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+
+  // // Set the production url of your site here
+  // url: 'https://your-docusaurus-test-site.com',
+  // // Set the /<baseUrl>/ pathname under which your site is served
+  // // For GitHub pages deployment, it is often '/<projectName>/'
+  // baseUrl: '/',
+
+  // // GitHub pages deployment config.
+  // // If you aren't using GitHub pages, you don't need these.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,10 +35,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "ko-kr",
-    locales: ["ko-kr", "en"],
-  },  
+  // i18n: {
+  //   defaultLocale: "en",
+  //   locales: ["en", "ko-kr"],
+  // },  
 
   presets: [
     [
@@ -82,10 +90,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: 'localeDropdown',
-            position: 'left',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'left',
+          // },
         ],
       },
       footer: {
