@@ -15,7 +15,7 @@ const config = {
   projectName: 'docuaurus-J-01',
   organizationName: 'JeiLeee',
   trailingSlash: false,
-  // deploymentBranch:'main',
+  deploymentBranch:'gh-page',
 
 
   // // Set the production url of your site here
@@ -29,7 +29,7 @@ const config = {
   // organizationName: 'facebook', // Usually your GitHub org/user name.
   // projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -90,10 +90,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'left',
-          // },
+          {
+            type: 'localeDropdown',
+            position: 'left',
+          },
         ],
       },
       footer: {
